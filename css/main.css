@@ -1,0 +1,80 @@
+#wrap {
+    width: 585px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    margin: 20px auto;
+    padding: 50px 0;
+    color: black;
+}
+
+.btn_wrap {
+    width: 510px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+button {
+    width: 220px;
+    height: 62px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.player_list {
+    width: 510px;
+    margin: auto;
+}
+
+.player_list li {
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #000;
+}
+
+.player_list li:last-child {
+    margin-bottom: 0;
+}
+
+.player_list .img_box {
+    width: 190px;
+    height: 150px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.player_list .img_box img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.player_list .text_box {
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.player_list .heart_box {
+    font-size: 40px;
+    width: 80px;
+    font-weight: 600;
+    margin-left: auto;
+    position: relative;
+}
+
+.player_list .heart_box span {
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.player_list .img_box img,
+.player_list .heart_box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
